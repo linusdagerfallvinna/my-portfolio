@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Start</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <span id="1"></span>
+
+    <!-- Header -->
+    <header>
+        <div id="widescreen_logo">
+            <a href="#1"><img src="images/loggan.png" alt="Linus Vinnå logotyp" /></a>
+            <!-- Lägg till alt på andra ställen!!!-->
+        </div>
+
+        <div id="smallscreen_header">
+            <div id="smallscreen_logo">
+                <a href="#1"><img src="images/loggan.png" alt="Linus Vinnå logotyp" /></a>
+            </div>
+            <a id="hamburger_menu_button">&#9776</a><!--Burgermenu-->
+        </div>
+
+        <nav>
+            <ul id="largemenu">
+                <li><a href="#1" class = "active" class="close">HOME</a></li>
+                <li><a href="#2" class="close">WORK</a></li><!--widescreen menu-->
+                <li><a href="#3" class="close">CONTACT</a></li>
+            </ul>
+
+            <ul id="smallmenu">
+                <li><a href="#1" class = "active2" class="close">HOME</a></li>
+                <li><a href="#2" class="close">WORK</a></li> <!--smallscreen menu-->
+                <li><a href="#3" class="close">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div id="title_section">
+        <div id="title_grid_container">
+            <div id="item1">
+                <div id="top_div">
+                    <h1>UI/UX DESIGNER PORTFOLIO</h1>
+                    <div id="bottom_div">
+                        <a href="#2" id="view_work_button">VIEW MY WORK</a>
+                    </div>
+                </div>
+            </div>
+            <div id="item2">
+                <img id="header_image" src="images/objects2.png" /> <!--Byt namn på bilder!-->
+            </div>
+        </div>
+    </div>
+
+
+    <span id="2"></span>
+
+    <h2 id="widescreen_gallery_title">WORK</h2>
+
+    <div id="wideversion_gallery">
+
+        <div id="side_gallery_nav">
+            <img id="wideversion_gallery_box1" class="wideversion_gallery_image" src="images/bild123.png"
+                onclick=chas(); />
+            <img id="wideversion_gallery_box2" class="wideversion_gallery_image" src="images/hockey_image.png"
+                onclick=hockey(); />
+            <img id="wideversion_gallery_box3" class="wideversion_gallery_image" src="images/figma_image.png"
+                onclick=figma(); />
+        </div>
+
+
+        <div id="main_gallery">
+            <img id="wideversion_big_gallery_image" src="images/bild123.png" />
+            <div id="bottom_main">
+                <div id="left_main">
+                    <h2 id="gallery_title">Redesign of Chas Academy</h2>
+                    <a href="CaseStudy1.html" id="readmore_btn">READ MORE</a>
+                </div>
+                <p id="wide_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua.<br><br>
+
+                    Ut enim ad minim veniam, quis nostrud exercitation. Duis aute irure dolor in
+                    reprehenderit
+                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="smallversion_gallery">
+
+        <h2 id="smallscreen_gallery_title">Work</h2>
+
+        <div id="big_image_section_smallversion">
+            <img id="smallversion_big_gallery_image" src="images/bild123.png" />
+        </div>
+
+        <div id="top_section_smallversion">
+            <img id="smallversion_gallery_box1" class="smallversion_gallery_image" src="images/bild123.png"
+                onclick=chas2(); />
+            <img id="smallversion_gallery_box2" class="smallversion_gallery_image" src="images/hockey_image.png"
+                onclick=hockey2(); />
+            <img id="smallversion_gallery_box3" class="smallversion_gallery_image" src="images/figma_image.png"
+                onclick=figma2(); />
+        </div>
+
+        <div id="bottom_section_gallery_smallversion">
+            <h2 id="gallery_title_smallversion">Redesign of Chas Academy</h2>
+            <p id="small_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore et dolore magna aliqua.<br><br>
+
+                Ut enim ad minim veniam, quis nostrud exercitation. Duis aute irure dolor in
+                reprehenderit
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <a href="CaseStudy1.html" id="readmore_btn_small">READ MORE</a>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <span id="3"></span>
+    <footer>
+        <div id="footer_row">
+            <div id="footer_left">
+                <h3>Contact me</h3>
+                <a href="mailto:linus.dv@gmail.com" id="email_link">linus.dv@gmail.com</a><br><br>
+                <div id="resume">
+                    <a href="https://www.w3schools.com/" target="_blank"><img id="pdfimage"
+                            src="images/pdf_vector.png" /></a>
+                    <p id="resume_text">
+                        <a href="https://www.w3schools.com/" target="_blank">Resume-Linus-Dagerfall-Vinnå.pdf</a>
+                    </p>
+                </div>
+            </div>
+            <div id="footer_right">
+                <a href="https://www.instagram.com/?hl=sv" target="_blank"><img class="social_media_image"
+                        src="images/instagram.png" /></a>
+                <a href="https://www.facebook.com/" target="_blank"><img class="social_media_image"
+                        src="images/facebookimage.png" /></a>
+                <a href="https://github.com/" target="_blank"><img class="social_media_image"
+                        src="images/githubimage.png" /></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank"><img class="social_media_image"
+                        src="images/linkedinimage.png" /></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./gallery_script.js"></script>
+</body>
+
+</html>
