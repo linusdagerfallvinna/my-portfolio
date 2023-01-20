@@ -19,39 +19,39 @@
     <header>
         <div id="widescreen_logo">
             <a href="#1"><img src="images/loggan.png" alt="Linus Vinnå logotyp" /></a>
-            <!-- Lägg till alt på andra ställen!!!-->
         </div>
 
-        <div id="smallscreen_header">
+        <div id="smallscreen_header"><!--Header för lite skärm-->
             <div id="smallscreen_logo">
-                <a href="#1"><img src="images/loggan.png" alt="Linus Vinnå logotyp" /></a>
+                <a href="#1"><img src="images/loggan.png" alt="Linus Vinnå logotyp" /></a><!--Logga-->
             </div>
             <a id="hamburger_menu_button">&#9776</a><!--Burgermenu-->
         </div>
 
+        
         <nav>
-            <ul id="largemenu">
+            <ul id="largemenu"><!--Meny för stor skärm-->
                 <li><a href="#1" class = "active" class="close">HOME</a></li>
-                <li><a href="#2" class="close">WORK</a></li><!--widescreen menu-->
+                <li><a href="#2" class="close">WORK</a></li>
                 <li><a href="#3" class="close">CONTACT</a></li>
             </ul>
 
-            <ul id="smallmenu">
+            <ul id="smallmenu"><!--Meny för liten skärm-->
                 <li><a href="#1" class = "active2" class="close">HOME</a></li>
-                <li><a href="#2" class="close">WORK</a></li> <!--smallscreen menu-->
+                <li><a href="#2" class="close">WORK</a></li>
                 <li><a href="#3" class="close">CONTACT</a></li>
             </ul>
         </nav>
     </header>
 
 
-    <div id="title_section">
+    <div id="title_section"> <!--Banner-->
         <div id="title_grid_container">
             <div id="item1">
                 <div id="top_div">
                     <h1>UI/UX DESIGNER PORTFOLIO</h1>
                     <div id="bottom_div">
-                        <a href="#2" id="view_work_button">VIEW MY WORK</a>
+                        <a href="#2" id="view_work_button">VIEW MY WORK</a> <!--Knapp som skrollar ner till sektionen Work-->
                     </div>
                 </div>
             </div>
@@ -64,11 +64,11 @@
 
     <span id="2"></span>
 
-    <h2 id="widescreen_gallery_title">WORK</h2>
+    <h2 id="widescreen_gallery_title">WORK</h2> <!--Rubrik för sektionen Work-->
 
-    <div id="wideversion_gallery">
+    <div id="wideversion_gallery"> <!--Sektionen Work för stor skärm-->
 
-        <div id="side_gallery_nav">
+        <div id="side_gallery_nav"> <!--Vänstra menyn för sektionen Work-->
             <img id="wideversion_gallery_box1" class="wideversion_gallery_image" src="images/bild123.png"
                 onclick=chas(); />
             <img id="wideversion_gallery_box2" class="wideversion_gallery_image" src="images/hockey_image.png"
@@ -78,12 +78,12 @@
         </div>
 
 
-        <div id="main_gallery">
-            <img id="wideversion_big_gallery_image" src="images/bild123.png" />
-            <div id="bottom_main">
+        <div id="main_gallery"> <!--Högra delen för sektionen Work-->
+            <img id="wideversion_big_gallery_image" src="images/bild123.png" /> <!--Stor bild till höger för valt projekt-->
+            <div id="bottom_main"> <!--Sektion med info om valt projekt för stor skärm-->
                 <div id="left_main">
-                    <h2 id="gallery_title">Redesign of Chas Academy</h2>
-                    <a href="CaseStudy1.html" id="readmore_btn">READ MORE</a>
+                    <h2 id="gallery_title">Redesign of Chas Academy</h2> <!--Rubrik för valt projekt-->
+                    <a href="CaseStudy1.html" id="readmore_btn">READ MORE</a> <!--Läs mer-knapp-->
                 </div>
                 <p id="wide_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor
@@ -98,13 +98,13 @@
 
     <div id="smallversion_gallery">
 
-        <h2 id="smallscreen_gallery_title">Work</h2>
+        <h2 id="smallscreen_gallery_title">Work</h2> <!--Rubrik för sektionen Work för liten skärm-->
 
         <div id="big_image_section_smallversion">
-            <img id="smallversion_big_gallery_image" src="images/bild123.png" />
+            <img id="smallversion_big_gallery_image" src="images/bild123.png" /> <!--Bild för valt projet för liten skärm-->
         </div>
 
-        <div id="top_section_smallversion">
+        <div id="middle_section_smallversion"> <!--Meny för liten skärm-->
             <img id="smallversion_gallery_box1" class="smallversion_gallery_image" src="images/bild123.png"
                 onclick=chas2(); />
             <img id="smallversion_gallery_box2" class="smallversion_gallery_image" src="images/hockey_image.png"
@@ -113,8 +113,8 @@
                 onclick=figma2(); />
         </div>
 
-        <div id="bottom_section_gallery_smallversion">
-            <h2 id="gallery_title_smallversion">Redesign of Chas Academy</h2>
+        <div id="bottom_section_gallery_smallversion"> <!--Sektion med info om valt projekt för liten skärm-->
+            <h2 id="gallery_title_smallversion">Redesign of Chas Academy</h2> <!--Rubrik för valt projekt för liten skärm-->
             <p id="small_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor
                 incididunt ut labore et dolore magna aliqua.<br><br>
@@ -122,7 +122,7 @@
                 Ut enim ad minim veniam, quis nostrud exercitation. Duis aute irure dolor in
                 reprehenderit
                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-            <a href="CaseStudy1.html" id="readmore_btn_small">READ MORE</a>
+            <a href="CaseStudy1.html" id="readmore_btn_small">READ MORE</a> <!--Läs mer knapp för liten skärm-->
         </div>
     </div>
 
@@ -131,26 +131,25 @@
     <span id="3"></span>
     <footer>
         <div id="footer_row">
-            <div id="footer_left">
-                <h3>Contact me</h3>
-                <a href="mailto:linus.dv@gmail.com" id="email_link">linus.dv@gmail.com</a><br><br>
+            <div id="footer_left"> <!--Vänstra delen av footern-->
+                <h3>Contact me</h3> <!--Rubrik för footern-->
+                <a href="mailto:linus.dv@gmail.com" id="email_link">linus.dv@gmail.com</a><br><br> <!--Email länk-->
                 <div id="resume">
-                    <a href="https://www.w3schools.com/" target="_blank"><img id="pdfimage"
-                            src="images/pdf_vector.png" /></a>
+                    <a href="" target="_blank"><img id="pdfimage" src="images/pdf_vector.png" /></a> <!--PDF ikon-->
                     <p id="resume_text">
-                        <a href="https://www.w3schools.com/" target="_blank">Resume-Linus-Dagerfall-Vinnå.pdf</a>
+                        <a href="" target="_blank">Resume-Linus-Dagerfall-Vinnå.pdf</a> <!--Länk till CV-->
                     </p>
                 </div>
             </div>
-            <div id="footer_right">
-                <a href="https://www.instagram.com/?hl=sv" target="_blank"><img class="social_media_image"
+            <div id="footer_right"> <!--Högra delen av footern-->
+                <a href="https://www.instagram.com/?hl=sv" target="_blank"><img class="social_media_image" 
                         src="images/instagram.png" /></a>
                 <a href="https://www.facebook.com/" target="_blank"><img class="social_media_image"
                         src="images/facebookimage.png" /></a>
                 <a href="https://github.com/" target="_blank"><img class="social_media_image"
                         src="images/githubimage.png" /></a>
                 <a href="https://www.linkedin.com/feed/" target="_blank"><img class="social_media_image"
-                        src="images/linkedinimage.png" /></a>
+                        src="images/linkedinimage.png" /></a> <!--Ikon för sociala medier-->
             </div>
         </div>
     </footer>
