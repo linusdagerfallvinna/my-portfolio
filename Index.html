@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="zxx">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script src="script.js"></script>
     <meta charset="utf-8">
 </head>
 
@@ -28,16 +28,16 @@
             <a id="hamburger_menu_button">&#9776</a><!--Burgermenu-->
         </div>
 
-        
+
         <nav>
             <ul id="largemenu"><!--Meny för stor skärm-->
-                <li><a href="#1" class = "active" class="close">HOME</a></li>
+                <li><a href="#1" class="active" class="close">HOME</a></li>
                 <li><a href="#2" class="close">WORK</a></li>
                 <li><a href="#3" class="close">CONTACT</a></li>
             </ul>
 
             <ul id="smallmenu"><!--Meny för liten skärm-->
-                <li><a href="#1" class = "active2" class="close">HOME</a></li>
+                <li><a href="#1" class="active2" class="close">HOME</a></li>
                 <li><a href="#2" class="close">WORK</a></li>
                 <li><a href="#3" class="close">CONTACT</a></li>
             </ul>
@@ -51,14 +51,24 @@
                 <div id="top_div">
                     <h1>UI/UX DESIGNER PORTFOLIO</h1>
                     <div id="bottom_div">
-                        <a href="#2" id="view_work_button">VIEW MY WORK</a> <!--Knapp som skrollar ner till sektionen Work-->
+                        <a href="#2" id="view_work_button">VIEW MY WORK</a>
+                        <!--Knapp som skrollar ner till sektionen Work-->
                     </div>
                 </div>
             </div>
             <div id="item2">
-                <img id="header_image" src="images/Profilepicture.png" /> <!--Byt namn på bilder!-->
+                <img id="header_image" src="images/Profilepicture3.png" alt="Bild på mig" />
             </div>
         </div>
+    </div>
+
+
+    <div class="horizonalt_image_div4"> <!-- Meny för sidans olika delar -->
+        <img class="sectionimage3" alt="Ikon för delen Research." src="images/research.png" />
+        <img class="sectionimage3" alt="Ikon för delen Requierments." src="images/requirements.png" />
+        <img class="sectionimage3" alt="Ikon för delen App development." src="images/app.png" />
+        <img class="sectionimage3" alt="Ikon för delen Webb development." src="images/webb.png" />
+        <img class="sectionimage3" alt="Ikon för delen Prototyping." src="images/prototyping.png" />
     </div>
 
 
@@ -69,17 +79,18 @@
     <div id="wideversion_gallery"> <!--Sektionen Work för stor skärm-->
 
         <div id="side_gallery_nav"> <!--Vänstra menyn för sektionen Work-->
-            <img id="wideversion_gallery_box1" class="wideversion_gallery_image" src="images/bild123.png"
-                onclick=chas(); />
-            <img id="wideversion_gallery_box2" class="wideversion_gallery_image" src="images/hockey_image.png"
-                onclick=hockey(); />
-            <img id="wideversion_gallery_box3" class="wideversion_gallery_image" src="images/figma_image.png"
-                onclick=figma(); />
+            <img id="wideversion_gallery_box1" class="wideversion_gallery_image"
+                alt="Bild i meny över projektet med Chas Academy" src="images/chasacademy.png" onclick=chas(); />
+            <img id="wideversion_gallery_box2" class="wideversion_gallery_image"
+                alt="Bild i meny över projektet med WJC 2024" src="images/hockey_image.png" onclick=hockey(); />
+            <img id="wideversion_gallery_box3" class="wideversion_gallery_image"
+                alt="Bild i meny över projektet med Figma" src="images/figma_image.png" onclick=figma(); />
         </div>
 
 
         <div id="main_gallery"> <!--Högra delen för sektionen Work-->
-            <img id="wideversion_big_gallery_image" src="images/bild123.png" /> <!--Stor bild till höger för valt projekt-->
+            <img id="wideversion_big_gallery_image" src="images/chasacademy.png" alt="Bild över valt projekt" />
+            <!--Stor bild till höger för valt projekt-->
             <div id="bottom_main"> <!--Sektion med info om valt projekt för stor skärm-->
                 <div id="left_main">
                     <h2 id="gallery_title">Redesign of Chas Academy</h2> <!--Rubrik för valt projekt-->
@@ -101,20 +112,22 @@
         <h2 id="smallscreen_gallery_title">Work</h2> <!--Rubrik för sektionen Work för liten skärm-->
 
         <div id="big_image_section_smallversion">
-            <img id="smallversion_big_gallery_image" src="images/bild123.png" /> <!--Bild för valt projet för liten skärm-->
+            <img id="smallversion_big_gallery_image" alt="Bild över valt projekt" src="images/chasacademy.png" />
+            <!--Bild för valt projet för liten skärm-->
         </div>
 
         <div id="middle_section_smallversion"> <!--Meny för liten skärm-->
-            <img id="smallversion_gallery_box1" class="smallversion_gallery_image" src="images/bild123.png"
-                onclick=chas2(); />
-            <img id="smallversion_gallery_box2" class="smallversion_gallery_image" src="images/hockey_image.png"
-                onclick=hockey2(); />
-            <img id="smallversion_gallery_box3" class="smallversion_gallery_image" src="images/figma_image.png"
-                onclick=figma2(); />
+            <img id="smallversion_gallery_box1" class="smallversion_gallery_image"
+                alt="Bild i meny över projektet med Chas Academy" src="images/chasacademy.png" onclick=chas2(); />
+            <img id="smallversion_gallery_box2" class="smallversion_gallery_image"
+                alt="Bild i meny över projektet med WJC 2024" src="images/hockey_image.png" onclick=hockey2(); />
+            <img id="smallversion_gallery_box3" class="smallversion_gallery_image"
+                alt="Bild i meny över projektet med Figma" src="images/figma_image.png" onclick=figma2(); />
         </div>
 
         <div id="bottom_section_gallery_smallversion"> <!--Sektion med info om valt projekt för liten skärm-->
-            <h2 id="gallery_title_smallversion">Redesign of Chas Academy</h2> <!--Rubrik för valt projekt för liten skärm-->
+            <h2 id="gallery_title_smallversion">Redesign of Chas Academy</h2>
+            <!--Rubrik för valt projekt för liten skärm-->
             <p id="small_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor
                 incididunt ut labore et dolore magna aliqua.<br><br>
@@ -135,21 +148,22 @@
                 <h3>Contact me</h3> <!--Rubrik för footern-->
                 <a href="mailto:linus.dv@gmail.com" id="email_link">linus.dv@gmail.com</a><br><br> <!--Email länk-->
                 <div id="resume">
-                    <a href="" target="_blank"><img id="pdfimage" src="images/pdf_vector.png" /></a> <!--PDF ikon-->
+                    <a href="" target="_blank"><img id="pdfimage" alt="PDF logga" src="images/pdf_vector.png" /></a>
+                    <!--PDF ikon-->
                     <p id="resume_text">
                         <a href="" target="_blank">Resume-Linus-Dagerfall-Vinnå.pdf</a> <!--Länk till CV-->
                     </p>
                 </div>
             </div>
             <div id="footer_right"> <!--Högra delen av footern-->
-                <a href="https://www.instagram.com/?hl=sv" target="_blank"><img class="social_media_image" 
-                        src="images/instagram.png" /></a>
-                <a href="https://www.facebook.com/" target="_blank"><img class="social_media_image"
+                <a href="https://www.instagram.com/?hl=sv" target="_blank"><img class="social_media_image"
+                        alt="Instagram logga" src="images/instagram.png" /></a>
+                <a href="https://www.facebook.com/" target="_blank"><img class="social_media_image" alt="Facebook logga"
                         src="images/facebookimage.png" /></a>
-                <a href="https://github.com/" target="_blank"><img class="social_media_image"
+                <a href="https://github.com/" target="_blank"><img class="social_media_image" alt="Github logga"
                         src="images/githubimage.png" /></a>
                 <a href="https://www.linkedin.com/feed/" target="_blank"><img class="social_media_image"
-                        src="images/linkedinimage.png" /></a> <!--Ikon för sociala medier-->
+                        alt="Linkedin logga" src="images/linkedinimage.png" /></a> <!--Ikon för sociala medier-->
             </div>
         </div>
     </footer>
