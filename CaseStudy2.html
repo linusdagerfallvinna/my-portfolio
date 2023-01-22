@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="zxx">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script src="script.js"></script>
     <meta charset="utf-8">
 </head>
 
@@ -32,12 +32,12 @@
         <nav>
             <ul id="largemenu"><!--Meny för stor skärm-->
                 <li><a href="Index.html" class="close">HOME</a></li>
-                <li><a href="#7" class="close">CONTACT</a></li>
+                <li><a href="#3" class="close">CONTACT</a></li>
             </ul>
 
             <ul id="smallmenu"><!--Meny för liten skärm-->
                 <li><a href="Index.html" class="close">HOME</a></li>
-                <li><a href="#7" class="close">CONTACT</a></li>
+                <li><a href="#3" class="close">CONTACT</a></li>
             </ul>
         </nav>
     </header>
@@ -49,43 +49,49 @@
                 <div id="item1">
                     <div id="top_div">
                         <h1 class="title">World Junior Championship 2024</h1> <!-- Rubrik i banner -->
-                        <img class="hockeylogo" src="images/hockeylogo.png" /> <!-- Logga -->
+                        <img class="hockeylogo" alt="WJC 2024 logga" src="images/hockeylogo.png" /> <!-- Logga -->
                     </div>
                 </div>
                 <div id="item2">
-                    <img class="casestudyheroimage" src="images/hockey_image.png" /> <!-- Bild -->
+                    <img class="casestudyheroimage" alt="Bild på projektet kring WJC 2024"
+                        src="images/hockey_image.png" /> <!-- Bild -->
                 </div>
             </div>
 
-            <div id="title_section_small_version">
-                <h1 class="title_small">World Junior Championship 2024</h1> <!-- Rubrik liten skärm -->
-                <img class="casestudyheroimage_small" src="images/hockey_image.png" /> <!-- Bild i banner för liten skärm -->
-            </div>
+        <div id="title_section_small_version">
+            <h1 class="title_small">World Junior Championship 2024</h1> <!-- Rubrik liten skärm -->
+            <img class="casestudyheroimage_small" alt="Bild på projektet kring WJC 2024"
+                src="images/hockey_image.png" /> <!-- Bild i banner för liten skärm -->
+        </div>
+    </div>
     </section>
 
     <div class="content">
 
         <div class="horizonalt_image_div"> <!-- Meny för sidans olika delar -->
-            <a href="#2"><img class="sectionimage" src="images/empathize.png" /></a> <!-- Ikon som går att klicka på -->
-            <a href="#3"><img class="sectionimage" src="images/define.png" /></a>
-            <a href="#4"><img class="sectionimage" src="images/ideate.png" /></a>
-            <a href="#5"><img class="sectionimage" src="images/prototype.png" /></a>
-            <a href="#6"><img class="sectionimage" src="images/testing.png" /></a>
+            <a href="#2"><img class="sectionimage" alt="Ikon för delen Empathize."
+                    src="images/empathize.png" /></a><!-- Ikon som går att klicka på -->
+            <a href="#2"><img class="sectionimage" alt="Ikon för delen Define." src="images/define.png" /></a>
+            <a href="#2"><img class="sectionimage" alt="Ikon för delen Ideate." src="images/ideate.png" /></a>
+            <a href="#2"><img class="sectionimage" alt="Ikon för delen Prototype." src="images/prototype.png" /></a>
+            <a href="#2"><img class="sectionimage" alt="Ikon för delen Testing." src="images/testing.png" /></a>
         </div>
 
 
-        <div id="flexbox_div1">
-
-            <div id="case_study_section_title">
+        <span id="2"></span>
+        <div class="flexbox_div1">
+            <h1 class="case_study_title2">TO BE CONTINUED...</h1> <!-- Stor rubrik för innehållet  -->
+            <div class="case_study_section_title">
                 <h2 class="case_study_section_h2">OTHER WORK</h2> <!-- Rubrik för sektionen OTHER WORK  -->
             </div>
         </div>
 
         <div class="flexbox_div2">
-            <div id="left_content_div"> <!-- Vänstra delen av innehållet för sektionen OTHER WORK -->
+            <div class="left_content_div"> <!-- Vänstra delen av innehållet för sektionen OTHER WORK -->
                 <a href="CaseStudy1.html">
                     <div class="container">
-                        <img src="images/bild123.png" alt="" class="other_work_image"> <!-- Bild -->
+                        <img src="images/chasacademy.png" alt="Bild på projektet Redesign of Chas Academy"
+                            class="other_work_image"> <!-- Bild -->
                         <div class="middle">
                             <div class="other_work_btn_text">Chas Academy</div> <!-- Text som syns vid hover på bild -->
                         </div>
@@ -110,10 +116,11 @@
         </div>
 
         <div class="flexbox_div2">
-            <div id="left_content_div"> <!-- Vänstra delen av innehållet för sektionen OTHER WORK -->
+            <div class="left_content_div"> <!-- Vänstra delen av innehållet för sektionen OTHER WORK -->
                 <a href="CaseStudy3.html">
                     <div class="container">
-                        <img src="images/figma_image.png" alt="" class="other_work_image"> <!-- Bild -->
+                        <img src="images/figma_image.png" alt="Bild på projektet Redesign of Figma"
+                            class="other_work_image"> <!-- Bild -->
                         <div class="middle">
                             <div class="other_work_btn_text">Figma</div> <!-- Text som syns vid hover på bild -->
                         </div>
@@ -148,7 +155,8 @@
                 <h3>Contact me</h3> <!--Rubrik för footern-->
                 <a href="mailto:linus.dv@gmail.com" id="email_link">linus.dv@gmail.com</a><br><br> <!--Email länk-->
                 <div id="resume">
-                    <a href="" target="_blank"><img id="pdfimage" src="images/pdf_vector.png" /></a> <!--PDF ikon-->
+                    <a href="" target="_blank"><img id="pdfimage" alt="PDF logga" src="images/pdf_vector.png" /></a>
+                    <!--PDF ikon-->
                     <p id="resume_text">
                         <a href="" target="_blank">Resume-Linus-Dagerfall-Vinnå.pdf</a> <!--Länk till CV-->
                     </p>
@@ -156,13 +164,13 @@
             </div>
             <div id="footer_right"> <!--Högra delen av footern-->
                 <a href="https://www.instagram.com/?hl=sv" target="_blank"><img class="social_media_image"
-                        src="images/instagram.png" /></a>
-                <a href="https://www.facebook.com/" target="_blank"><img class="social_media_image"
+                        alt="Instagram logga" src="images/instagram.png" /></a>
+                <a href="https://www.facebook.com/" target="_blank"><img class="social_media_image" alt="Facebook logga"
                         src="images/facebookimage.png" /></a>
-                <a href="https://github.com/" target="_blank"><img class="social_media_image"
+                <a href="https://github.com/" target="_blank"><img class="social_media_image" alt="Github logga"
                         src="images/githubimage.png" /></a>
                 <a href="https://www.linkedin.com/feed/" target="_blank"><img class="social_media_image"
-                        src="images/linkedinimage.png" /></a> <!--Ikon för sociala medier-->
+                        alt="Linkedin logga" src="images/linkedinimage.png" /></a> <!--Ikon för sociala medier-->
             </div>
         </div>
     </footer>

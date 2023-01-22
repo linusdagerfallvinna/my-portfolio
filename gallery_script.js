@@ -2,7 +2,7 @@
 var currentBoxNum = 1;
 
 function chas() {
-    document.getElementById('wideversion_big_gallery_image').src = "images/bild123.png";
+    document.getElementById('wideversion_big_gallery_image').src = "images/chasacademy.png";
     document.getElementById('gallery_title').innerHTML = "Redesign of Chas Academy";
     document.getElementById('readmore_btn').href = "CaseStudy1.html"
 }
@@ -21,7 +21,7 @@ function figma() {
 
 
 function chas2() {
-    document.getElementById('smallversion_big_gallery_image').src = "images/bild123.png";
+    document.getElementById('smallversion_big_gallery_image').src = "images/chasacademy.png";
     document.getElementById('gallery_title_smallversion').innerHTML = "Redesign of Chas Academy";
     document.getElementById('readmore_btn_small').href = "CaseStudy1.html"
 }
